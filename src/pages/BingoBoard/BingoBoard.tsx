@@ -1,5 +1,5 @@
 // BingoBoard.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import cx from 'classnames';
 import styles from './BingoBoard.module.scss';
 

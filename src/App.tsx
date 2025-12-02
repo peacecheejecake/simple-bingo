@@ -6,7 +6,7 @@ function App() {
     <>
       <div></div>
       <div className="card">
-        <BingoBoard />
+        <BingoBoard items={[]} />
       </div>
     </>
   );
