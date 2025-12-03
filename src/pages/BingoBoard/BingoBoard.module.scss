@@ -1,7 +1,7 @@
 $font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 $border-color: #333;
 $cell-size: 60px;
-$primary: #111;
+$primary: #333;
 // $primary: #1862d0;
 
 .wrapper {
@@ -76,7 +76,7 @@ $primary: #111;
   }
 
   &.flipped {
-    background: rgba($primary, 0.08);
+    background: rgba($primary, 0.22);
     border-color: $primary;
     color: $primary;
     transform: rotateY(180deg);
@@ -116,11 +116,11 @@ $primary: #111;
 @keyframes bingoPulse {
   10% {
     scale: 0.8;
-    rotate: -10deg;
+    rotate: -2deg;
   }
   60% {
     scale: 1.08;
-    rotate: 20deg;
+    rotate: 7.5deg;
   }
   100% {
     scale: 1;
