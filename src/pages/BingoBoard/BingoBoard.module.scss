@@ -73,7 +73,7 @@ $primary: #333;
     color: $border-color;
   }
 
-  &:hover, &:active, &::highlight {
+  &:hover, &:active, &:highlight {
     background: transparent;
   }
 
