@@ -60,11 +60,13 @@ $primary: #333;
   p {
     margin: 0;
     transition: opacity 150ms ease-in-out;
+    color: #111;
   }
 
   .title {
     font-size: 14px;
     font-weight: bold;
+    color: #111;
   }
   .desc {
     font-size: 9px;
@@ -116,11 +118,11 @@ $primary: #333;
 @keyframes bingoPulse {
   10% {
     scale: 0.8;
-    rotate: -2deg;
+    rotate: -10deg;
   }
   60% {
     scale: 1.08;
-    rotate: 7.5deg;
+    rotate: 20deg;
   }
   100% {
     scale: 1;
