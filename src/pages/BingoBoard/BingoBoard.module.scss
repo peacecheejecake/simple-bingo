@@ -84,17 +84,17 @@ $primary: #333;
     transform: rotateY(180deg);
 
     p {
-      opacity: 0.1;
+      opacity: 0.4;
     }
   }
 
   &.bingoCell {
     background: #ffd43bac;
-    color: #ffd43b;
+    // color: #ffd43b;
     animation: bingoPulse 200ms ease-out forwards;
 
     p {
-      color: #ffd43b;
+      // color: #ffd43b;
     }
 
     
